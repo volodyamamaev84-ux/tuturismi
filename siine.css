@@ -141,11 +141,7 @@ body {
         .footer-column ul li a:hover {
             color: #fdbb2d;
         }
-        
-        .copyright {
+                .room-teert {
             text-align: center;
-            padding-top: 1.5rem;
-            border-top: 1px solid #444;
             color: #999;
-            font-size: 0.9rem;
         }

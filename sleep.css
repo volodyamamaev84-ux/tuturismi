@@ -190,7 +190,33 @@
         }
         
         .btn:hover {
-            background: #e55a2b;
+            background: #3a6b4a;
+        }
+        
+        .facts {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #4a7c59;
+        }
+        
+        .facts ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .facts li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .facts li:before {
+            content: "•";
+            color: #4a7c59;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
         }
         
         .contact-info {
@@ -240,13 +266,9 @@
         .footer-column ul li a:hover {
             color: #fdbb2d;
         }
-        
-        .copyright {
+                .room-teert {
             text-align: center;
-            padding-top: 1.5rem;
-            border-top: 1px solid #444;
             color: #999;
-            font-size: 0.9rem;
         }
 
         @media (max-width: 768px) {
@@ -264,6 +286,6 @@
             }
             
             .services {
-                grid-template-columns: 1fr;
+                grid-template-columns: ;
             }
         }
